@@ -76,3 +76,21 @@ console.log("First Word: " + exampleFirstWord3);
 // ---------------------------------------
 console.log("seccond word: " + seccondWord3);
 // ---------------------------------------
+
+// 4. Breaking Sentence (yet Again) and Count Each Length
+// Problem
+// Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
+
+let word4 = "wow JavaScript is so cool";
+let exampleFirstWord4 = word4.substring(0, 3);
+let seccondWord4 = word4.substring(4, 14);
+let seccondWord4Length = word4.length;
+
+let firstWordLength = exampleFirstWord4.length;
+
+console.log(
+  "First Word: " + exampleFirstWord + ", with length: " + firstWordLength
+);
+console.log(
+  "seccond Word: " + seccondWord4 + ", with length: " + seccondWord4Length
+);
